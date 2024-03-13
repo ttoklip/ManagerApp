@@ -8,4 +8,5 @@ class AppIcons{
   static const String icQuestion = 'assets/svg/ic_question_24.svg';
   static const String icReport = 'assets/svg/ic_report_24.svg';
   static const String icRightArrow = 'assets/svg/ic_right_arrow_24.svg';
+  static const String icLogo = 'assets/svg/ic_logo.svg';
 }
