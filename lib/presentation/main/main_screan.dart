@@ -42,27 +42,27 @@ class MainScreenView extends StatelessWidget {
         MenuCard(
           svg: AppIcons.icReport,
           title: '신고된 글 확인',
-          onTap: () => context.go(RoutePath.report),
+          onTap: () => context.push(RoutePath.report),
         ),
         MenuCard(
           svg: AppIcons.icManagement,
           title: '부적절한 유저 관리',
-          onTap: () => context.go(RoutePath.report),
+          onTap: () => context.push(RoutePath.manageUser),
         ),
         MenuCard(
           svg: AppIcons.icAnnouncement,
           title: '공지사항 관리',
-          onTap: () => context.go(RoutePath.report),
+          onTap: () => context.push(RoutePath.announcement),
         ),
         MenuCard(
           svg: AppIcons.icQuestion,
           title: '자주찾는 질문 관리',
-          onTap: () => context.go(RoutePath.report),
+          onTap: () => context.push(RoutePath.question),
         ),
         MenuCard(
           svg: AppIcons.icInquire,
           title: '문의사항 관리',
-          onTap: () => context.go(RoutePath.report),
+          onTap: () => context.push(RoutePath.inquire),
         ),
       ],
     );

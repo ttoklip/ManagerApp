@@ -9,4 +9,7 @@ class AppIcons{
   static const String icReport = 'assets/svg/ic_report_24.svg';
   static const String icRightArrow = 'assets/svg/ic_right_arrow_24.svg';
   static const String icLogo = 'assets/svg/ic_logo.svg';
+  static const String icBackArrow = 'assets/svg/ic_back_arraw_24.svg';
+  static const String icDownArrow = 'assets/svg/ic_down_arraw_24.svg';
+  static const String icSearch = 'assets/svg/ic_search_24.svg';
 }
