@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:ttoklip_manager/core/theme/theme_data.dart';
+import 'package:ttoklip_manager/dependency_injection.dart';
 
 import 'presentation/routes/routes.dart';
 
 void main() {
+  //DI
+  configureDependencies();
+
   runApp(const MyApp());
 }
 
