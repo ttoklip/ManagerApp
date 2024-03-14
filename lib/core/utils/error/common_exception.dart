@@ -16,7 +16,7 @@ class CommonException {
         return ErrorResponse(
           message: '접속하신 네트워크 환경이 불안정합니다. \n 잠시후 다시 시도해주세요.',
           code: code,
-          status: 'network error',
+          status: 400,
         );
       } else {
         final code = '8888';
@@ -24,7 +24,7 @@ class CommonException {
         return ErrorResponse(
           message: '서비스의 일시적인 오류가 발생했습니다. \n 잠시후 다시 시도해주세요.',
           code: code,
-          status: 'unExpected error',
+          status: 401,
         );
       }
     } else {
@@ -33,7 +33,7 @@ class CommonException {
       return ErrorResponse(
         message: '서비스의 일시적인 오류가 발생했습니다. \n 잠시후 다시 시도해주세요.',
         code: code,
-        status: 'unExpected error',
+        status: 402,
       );
     }
   }
